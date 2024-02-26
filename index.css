@@ -1,0 +1,36 @@
+/* Fill CSS here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+}
+form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 5%;
+}
+table {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 5%;
+  width: 70%;
+  border-spacing: 25px;
+}
